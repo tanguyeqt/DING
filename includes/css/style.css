@@ -1,0 +1,8 @@
+.navbar{
+    background-color: blue;
+}
+@media (min-width:993px) {
+.navbar{
+    background-color: transparent;
+}
+}
