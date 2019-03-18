@@ -1,8 +1,235 @@
+@font-face {
+	font-family: "Roboto";
+	src: url('../../includes/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Roboto Bold";
+	src: url('../../includes/fonts/Roboto-Bold.ttf');
+}
+/*
+Navbar
+*/
 .navbar{
-    background-color: blue;
+    background-color: #11097f;
+  
+}
+.navbar a{
+    color:#c8c8ff;
+}
+
+.nav-item a{
+    color:#c8c8ff !important; 
+    font-family: "Roboto";
+}
+.navbar-toggler button{
+    background-color:white;
+}
+.navbar-toggler-icon span{
+    background-color:white;
 }
 @media (min-width:993px) {
 .navbar{
     background-color: transparent;
 }
+.navbar a{
+    margin-top: 5%;
+    color:#c8c8ff;
+    font-family: "Roboto";
+} 
+.nav-item a{
+    margin-top: 5%;
+    color:#c8c8ff !important; 
+    font-family: 'Roboto';
+    font-size: 13px;
 }
+}
+
+/*
+About
+*/
+
+#about{
+    background: url('../../includes/assets/about_bg.png')no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; 
+}
+
+.logo_about{
+    text-align: center;
+}
+
+.text-about{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.text-about span{
+    color: #F79A00;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.scroll_about img{
+    width: 2%;
+    padding-bottom: 5%;
+}
+
+/*
+Intro
+*/
+
+#intro {
+    background : url("../../includes/assets/intro_bg.png")  no-repeat center ; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; 
+    z-index: 1;
+}
+.intro-icon{ 
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.text-intro{
+    font-family: 'Roboto';
+    color:#11097f;
+    padding-bottom: 3%;
+  
+} 
+
+.text-intro span{
+    color:#11097f;
+    font-family: 'Roboto Bold';
+}
+/*
+Metier
+*/
+#metier{
+background: url('../../includes/assets/metier_bg.svg')no-repeat center fixed; 
+-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+background-size: cover; 
+}
+.metier{
+    margin-top:15%;
+}
+.logo-metier{
+    margin-top:21%;
+}
+.text-metier{
+    color:#c8c8ff;
+    font-family: "Roboto";
+    margin-top: 15%;
+    margin-bottom: 35%;
+}
+
+/*
+Contact
+*/
+
+#contact{
+    background: url('../../includes/assets/contact_bg.png')no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; 
+    }
+
+    .log-form {
+    background: #fff;
+    }
+
+    .form-message{
+    text-align: center;
+    } 
+    .msgerror{
+    color:red;
+    }
+
+    .msgsuccess{
+    color:green;
+    }
+    .input-error{
+    box-shadow: 0 0 5px red;
+    }
+    .log-form form {
+    display: block;
+    width: 100%;
+    padding: 2em;
+    padding-right: 2em;
+    }
+    .log-form input {
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em 0;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 0.5em;
+    color: #757575;
+    }
+    .log-form input:focus {
+    outline: none;
+    }
+    .log-form .btn {
+
+    background: white;
+    border: 2px solid gray;
+    padding: 0.5em 2em;
+    color: gray;
+    margin-right: 0.5em;
+    border-radius : 0px;
+
+    }
+    .log-form .btn:hover {
+    background: gray;
+    color:white;
+    }
+    .log-form .btn:active {
+    background: gray;
+    color:white;
+    }
+    .log-form .btn:focus {
+    outline: none;
+    }
+
+    .bouton{
+    text-align: center;
+    }
+
+    .text-group textarea {
+    display: block;
+    background: none;
+    padding: 0.125rem 0.125rem 0.0625rem;
+    border-width: 0;
+    border-color: transparent;
+    line-height: 1.9;
+    width: 100%;
+    -webkit-transition: all 0.28s ease;
+    transition: all 0.28s ease;
+    box-shadow: none;
+    border-bottom: 1px solid #eaeaea;
+    }
+    .text-group textarea:focus ~ .input-label,
+    .text-group textarea:valid ~ .input-label,
+    .text-group textarea.form-file ~ .input-label,
+    .text-group textarea.has-value ~ .input-label {
+    font-size: 14px;
+    ;
+    color: gray;
+    top: -1rem;
+    left: 0;
+    }
+    .text-group textarea:focus ~ .input-label {
+    color: #96c93d;
+    }
+    .text-group textarea:focus ~ .bar::before {
+    width: 100%;
+    left: 0;
+    }
+
+    .contact-title{
+        margin-top: 5%;
+    }
+
+      

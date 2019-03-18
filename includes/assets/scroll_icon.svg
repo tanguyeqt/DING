@@ -1,0 +1,29 @@
+<svg id="Scroll_Icon" data-name="Scroll Icon" xmlns="http://www.w3.org/2000/svg" width="66" height="87" viewBox="0 0 66 87">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ed322d;
+        fill-opacity: 0;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 15px;
+        fill: #c8c8ff;
+        text-anchor: middle;
+        font-family: Roboto;
+        font-weight: 300;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="21" y="3" width="24" height="51" rx="10" ry="10"/>
+  <rect class="cls-2" x="32" y="11.5" width="1" height="10"/>
+  <text id="scroll" class="cls-3" x="33" y="86">scroll</text>
+</svg>
